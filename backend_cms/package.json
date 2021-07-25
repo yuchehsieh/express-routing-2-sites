@@ -1,6 +1,5 @@
 {
   "name": "backend_cms",
-  "homepage": "https://github.com/yuchehsieh/express-routing-2-sites/tree/main/backend_cms/build",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

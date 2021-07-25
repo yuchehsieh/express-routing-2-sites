@@ -8,7 +8,7 @@ import {
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/backstage">
       <div>
         <nav>
           <ul>
