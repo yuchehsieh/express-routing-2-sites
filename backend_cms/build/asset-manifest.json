@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/backend_cms/build/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/backend_cms/build/static/js/main.7c7cfc23.chunk.js",
-    "main.js.map": "/backend_cms/build/static/js/main.7c7cfc23.chunk.js.map",
-    "runtime-main.js": "/backend_cms/build/static/js/runtime-main.a6ed0fbe.js",
-    "runtime-main.js.map": "/backend_cms/build/static/js/runtime-main.a6ed0fbe.js.map",
-    "static/js/2.d72db648.chunk.js": "/backend_cms/build/static/js/2.d72db648.chunk.js",
-    "static/js/2.d72db648.chunk.js.map": "/backend_cms/build/static/js/2.d72db648.chunk.js.map",
-    "static/js/3.96a340a5.chunk.js": "/backend_cms/build/static/js/3.96a340a5.chunk.js",
-    "static/js/3.96a340a5.chunk.js.map": "/backend_cms/build/static/js/3.96a340a5.chunk.js.map",
-    "index.html": "/backend_cms/build/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/backend_cms/build/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.d72db648.chunk.js.LICENSE.txt": "/backend_cms/build/static/js/2.d72db648.chunk.js.LICENSE.txt"
+    "main.css": "/yuchehsieh/express-routing-2-sites/tree/main/backend_cms/build/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/yuchehsieh/express-routing-2-sites/tree/main/backend_cms/build/static/js/main.7c7cfc23.chunk.js",
+    "main.js.map": "/yuchehsieh/express-routing-2-sites/tree/main/backend_cms/build/static/js/main.7c7cfc23.chunk.js.map",
+    "runtime-main.js": "/yuchehsieh/express-routing-2-sites/tree/main/backend_cms/build/static/js/runtime-main.373d91fe.js",
+    "runtime-main.js.map": "/yuchehsieh/express-routing-2-sites/tree/main/backend_cms/build/static/js/runtime-main.373d91fe.js.map",
+    "static/js/2.d72db648.chunk.js": "/yuchehsieh/express-routing-2-sites/tree/main/backend_cms/build/static/js/2.d72db648.chunk.js",
+    "static/js/2.d72db648.chunk.js.map": "/yuchehsieh/express-routing-2-sites/tree/main/backend_cms/build/static/js/2.d72db648.chunk.js.map",
+    "static/js/3.96a340a5.chunk.js": "/yuchehsieh/express-routing-2-sites/tree/main/backend_cms/build/static/js/3.96a340a5.chunk.js",
+    "static/js/3.96a340a5.chunk.js.map": "/yuchehsieh/express-routing-2-sites/tree/main/backend_cms/build/static/js/3.96a340a5.chunk.js.map",
+    "index.html": "/yuchehsieh/express-routing-2-sites/tree/main/backend_cms/build/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/yuchehsieh/express-routing-2-sites/tree/main/backend_cms/build/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.d72db648.chunk.js.LICENSE.txt": "/yuchehsieh/express-routing-2-sites/tree/main/backend_cms/build/static/js/2.d72db648.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a6ed0fbe.js",
+    "static/js/runtime-main.373d91fe.js",
     "static/js/2.d72db648.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
     "static/js/main.7c7cfc23.chunk.js"
