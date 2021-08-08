@@ -2,10 +2,13 @@ import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import axios from "axios";
 
-const devApiBaseUrl = "http://localhost:5000";
-const prodApiBaseUrl = 'https://express-routing-2-sites.herokuapp.com'
+import About from './layouts/About';
 
-axios.defaults.baseURL = process.env.NODE_ENV === 'development' ? devApiBaseUrl : prodApiBaseUrl;
+const devApiBaseUrl = "http://localhost:5000";
+const prodApiBaseUrl = "https://express-routing-2-sites.herokuapp.com";
+
+axios.defaults.baseURL =
+  process.env.NODE_ENV === "development" ? devApiBaseUrl : prodApiBaseUrl;
 
 export default function App() {
   return (
@@ -84,10 +87,6 @@ const Home = () => {
     </>
   );
 };
-
-function About() {
-  return <h2>About</h2>;
-}
 
 function Users() {
   return <h2>Users</h2>;
