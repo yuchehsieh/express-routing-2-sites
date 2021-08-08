@@ -3,6 +3,7 @@ const path = require("path");
 const app = express();
 const port = process.env.PORT || "5000";
 const cors = require("cors");
+const proxy = require('express-http-proxy');
 
 app.use(
   cors({
@@ -37,6 +38,12 @@ app.get("/backstage/*", (req, res) => {
 app.get("/api", (req, res) => {
   res.status(200).send("api gotcha!!");
 });
+
+// app.use('/api/img', proxy('http://clecdeMac-mini.local/img/123456',  {
+//     filter: function(req, res) {
+//        return req.method == 'GET';
+//     }
+// }));
 
 app.get("/api/img", async (req, res) => {
   res.redirect('http://clecdeMac-mini.local/img/123456')
