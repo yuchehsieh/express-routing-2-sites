@@ -1,10 +1,8 @@
-import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import axios from "axios";
+
+axios.defaults.baseURL = "http://localhost:5000";
 
 export default function App() {
   return (
@@ -42,9 +40,47 @@ export default function App() {
   );
 }
 
-function Home() {
-  return <h2>Home</h2>;
-}
+const Home = () => {
+  const [imgSrc, setImgSrc] = useState();
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  const fetchData = async () => {
+    const axiosRequestConfig = {
+      responseType: "blob",
+    };
+
+    const response = await axios.get("/api/img", axiosRequestConfig);
+
+    const type = response.headers["content-type"];
+    const blob = response.data;
+
+    /* Convert to file */
+    const file = new File([blob], "123456", { type });
+    const base64 = await toImageBase64Url(file);
+    setImgSrc(base64);
+  };
+
+  const toImageBase64Url = (img) => {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onloadend = () => resolve(reader.result);
+      reader.onerror = reject;
+
+      if (img instanceof File) {
+        reader.readAsDataURL(img);
+      }
+    });
+  };
+  return (
+    <>
+      <h2>Home</h2>
+      <img src={imgSrc} alt="IMG" />
+    </>
+  );
+};
 
 function About() {
   return <h2>About</h2>;
