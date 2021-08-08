@@ -2,7 +2,10 @@ import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import axios from "axios";
 
-axios.defaults.baseURL = "http://localhost:5000";
+const devApiBaseUrl = "http://localhost:5000";
+const prodApiBaseUrl = 'https://express-routing-2-sites.herokuapp.com'
+
+axios.defaults.baseURL = process.env.NODE_ENV === 'development' ? devApiBaseUrl : prodApiBaseUrl;
 
 export default function App() {
   return (
