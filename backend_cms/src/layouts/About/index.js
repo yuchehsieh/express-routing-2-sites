@@ -24,39 +24,40 @@ const About = () => {
       flexWrap: "wrap",
       justifyContent: "space-between",
       alignItems: "center",
+      padding: 10,
     },
     section: {
       margin: 0,
-      padding: 10,
-      width: "50%",
+      padding: 5,
+      width: "33.3%",
       display: "flex",
       flexDirection: "column",
       alignItems: "flex-start",
-      border: "1px solid black",
+      border: "0.5px solid black",
       //   width: '100%'
     },
     header: {
-      fontSize: 12,
+      fontSize: 8,
       alignSelf: "center",
-      marginBottom: 8,
+      marginBottom: 2
     },
     row: {
       display: "flex",
       width: "100%",
       flexDirection: "row",
       justifyConten: "space-between",
-      marginVertical: 3,
+      marginVertical: 2,
     },
     desc: {
-      fontSize: 10,
-      marginVertical: 3,
+      fontSize: 8,
+      marginVertical: 2,
     },
     rowDesc: {
       width: "50%",
-      fontSize: 10,
+      fontSize: 8,
     },
     img: {
-      marginTop: 5,
+      marginTop: 2,
       height: 0,
       paddingTop: "18%",
       width: "100%",
@@ -64,9 +65,9 @@ const About = () => {
   });
 
   const MyDocument = () => (
-    <Document>
+    <Document title="條碼下載">
       <Page size="A4" style={styles.page}>
-        {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((key) => (
+        {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 26, 27].map((key) => (
           <View style={styles.section} key={key}>
             <Text style={styles.header}>國立臺北教育大學</Text>
             <Text style={styles.desc}>財產名稱：實務投影機</Text>
