@@ -13,15 +13,16 @@ import {
 
 import BarcodeUrl from "../../assets/example-barcode.png";
 import font from "../../assets/msyh.ttf";
+import TWKaiFont from '../../assets/TW-Kai-98_1.ttf'
 
-Font.register({ family: "Alibaba PuHuiTi Light", src: font });
+Font.register({ family: "TW Kai 98", src: TWKaiFont });
 
 const About = () => {
   const styles = StyleSheet.create({
     page: {
       display: 'flex',
       flexDirection: "row",
-      fontFamily: "Alibaba PuHuiTi Light",
+      fontFamily: "TW Kai 98",
       flexWrap: "wrap",
       alignItems: "flex-start",
       padding: 10,
@@ -37,27 +38,27 @@ const About = () => {
       //   width: '100%'
     },
     header: {
-      fontSize: 8,
+      fontSize: 7,
       alignSelf: "center",
-      marginBottom: 2
+      marginBottom: 1
     },
     row: {
       display: "flex",
       width: "100%",
       flexDirection: "row",
       justifyConten: "space-between",
-      marginVertical: 2,
+      marginVertical: 1,
     },
     desc: {
-      fontSize: 8,
-      marginVertical: 2,
+      fontSize: 7,
+      marginVertical: 1,
     },
     rowDesc: {
       width: "50%",
-      fontSize: 8,
+      fontSize: 7,
     },
     img: {
-      marginTop: 2,
+      marginTop: 1,
       height: 0,
       paddingTop: "18%",
       width: "100%",
@@ -67,7 +68,7 @@ const About = () => {
   const MyDocument = () => (
     <Document title="條碼下載">
       <Page size="A4" style={styles.page}>
-        {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24].map((key) => (
+        {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30].map((key) => (
           <View style={styles.section} key={key}>
             <Text style={styles.header}>國立臺北教育大學</Text>
             <Text style={styles.desc}>財產名稱：實務投影機</Text>
