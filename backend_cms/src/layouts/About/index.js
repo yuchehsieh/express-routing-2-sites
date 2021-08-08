@@ -19,11 +19,11 @@ Font.register({ family: "Alibaba PuHuiTi Light", src: font });
 const About = () => {
   const styles = StyleSheet.create({
     page: {
+      display: 'flex',
       flexDirection: "row",
       fontFamily: "Alibaba PuHuiTi Light",
       flexWrap: "wrap",
-      justifyContent: "space-between",
-      alignItems: "center",
+      alignItems: "flex-start",
       padding: 10,
     },
     section: {
@@ -67,7 +67,24 @@ const About = () => {
   const MyDocument = () => (
     <Document title="條碼下載">
       <Page size="A4" style={styles.page}>
-        {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 26, 27].map((key) => (
+        {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24].map((key) => (
+          <View style={styles.section} key={key}>
+            <Text style={styles.header}>國立臺北教育大學</Text>
+            <Text style={styles.desc}>財產名稱：實務投影機</Text>
+            <View style={styles.row}>
+              <Text style={styles.rowDesc}>購置日期：2016-12-02</Text>
+              <Text style={styles.rowDesc}>經費來源：校務基金</Text>
+            </View>
+            <View style={styles.row}>
+              <Text style={styles.rowDesc}>使用單位：數位系</Text>
+              <Text style={styles.rowDesc}>保管人：許一珍</Text>
+            </View>
+            <Image style={styles.img} src={BarcodeUrl} />
+          </View>
+        ))}
+      </Page>
+      <Page size="A4" style={styles.page}>
+        {[1, 2].map((key) => (
           <View style={styles.section} key={key}>
             <Text style={styles.header}>國立臺北教育大學</Text>
             <Text style={styles.desc}>財產名稱：實務投影機</Text>
