@@ -32,6 +32,22 @@ app.get("/backstage/*", (req, res) => {
   res.sendFile(path.join(__dirname, "/backend_cms/build/index.html"));
 });
 
+app.use("/backstage-resource", express.static(path.join(__dirname + "/backend_cms/build")));
+
+
+/* Frontend:
+    Site 2 (Cgu therapy system)
+*/
+app.get("/cgu", (req, res) => {
+  res.sendFile(path.join(__dirname, "/cgu-therapy-system/build/index.html"));
+});
+
+app.get("/cgu/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "/cgu-therapy-system/build/index.html"));
+});
+
+app.use("/cgu-resource", express.static(path.join(__dirname + "/cgu-therapy-system/build")));
+
 /* Service
     api example
 */
@@ -48,10 +64,5 @@ app.get("/api", (req, res) => {
 app.get("/api/img", async (req, res) => {
   res.redirect('http://clecdeMac-mini.local/img/123456')
 });
-
-/* Backend:
-    backend resources
-*/
-app.use(express.static(path.join(__dirname + "/backend_cms/build")));
 
 app.listen(port);

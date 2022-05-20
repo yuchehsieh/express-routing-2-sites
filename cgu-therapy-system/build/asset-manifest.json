@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "./cgu-resource/static/css/main.bc173bed.chunk.css",
+    "main.js": "./cgu-resource/static/js/main.2f9ab4b1.chunk.js",
+    "main.js.map": "./cgu-resource/static/js/main.2f9ab4b1.chunk.js.map",
+    "runtime-main.js": "./cgu-resource/static/js/runtime-main.f5f3de93.js",
+    "runtime-main.js.map": "./cgu-resource/static/js/runtime-main.f5f3de93.js.map",
+    "static/css/2.f54e2a36.chunk.css": "./cgu-resource/static/css/2.f54e2a36.chunk.css",
+    "static/js/2.2c25d68a.chunk.js": "./cgu-resource/static/js/2.2c25d68a.chunk.js",
+    "static/js/2.2c25d68a.chunk.js.map": "./cgu-resource/static/js/2.2c25d68a.chunk.js.map",
+    "index.html": "./cgu-resource/index.html",
+    "static/css/2.f54e2a36.chunk.css.map": "./cgu-resource/static/css/2.f54e2a36.chunk.css.map",
+    "static/css/main.bc173bed.chunk.css.map": "./cgu-resource/static/css/main.bc173bed.chunk.css.map",
+    "static/js/2.2c25d68a.chunk.js.LICENSE.txt": "./cgu-resource/static/js/2.2c25d68a.chunk.js.LICENSE.txt",
+    "static/media/goal-archieved.105e220c.wav": "./cgu-resource/static/media/goal-archieved.105e220c.wav",
+    "static/media/notification.3047fa24.wav": "./cgu-resource/static/media/notification.3047fa24.wav",
+    "static/media/warn-high.ae9bf97e.wav": "./cgu-resource/static/media/warn-high.ae9bf97e.wav",
+    "static/media/warn-medium.44c98622.wav": "./cgu-resource/static/media/warn-medium.44c98622.wav",
+    "static/media/warn-slight.5b9ecb19.wav": "./cgu-resource/static/media/warn-slight.5b9ecb19.wav"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f5f3de93.js",
+    "static/css/2.f54e2a36.chunk.css",
+    "static/js/2.2c25d68a.chunk.js",
+    "static/css/main.bc173bed.chunk.css",
+    "static/js/main.2f9ab4b1.chunk.js"
+  ]
+}

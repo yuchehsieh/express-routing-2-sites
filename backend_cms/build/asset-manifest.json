@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/static/js/main.e9aa6171.chunk.js",
-    "main.js.map": "/static/js/main.e9aa6171.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.1bd1614f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.1bd1614f.js.map",
-    "static/js/2.8dfdc018.chunk.js": "/static/js/2.8dfdc018.chunk.js",
-    "static/js/2.8dfdc018.chunk.js.map": "/static/js/2.8dfdc018.chunk.js.map",
-    "static/js/3.877f26ec.chunk.js": "/static/js/3.877f26ec.chunk.js",
-    "static/js/3.877f26ec.chunk.js.map": "/static/js/3.877f26ec.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.8dfdc018.chunk.js.LICENSE.txt": "/static/js/2.8dfdc018.chunk.js.LICENSE.txt",
-    "static/media/TW-Kai-98_1.5349868d.ttf": "/static/media/TW-Kai-98_1.5349868d.ttf",
-    "static/media/msyh.2ec463e8.ttf": "/static/media/msyh.2ec463e8.ttf"
+    "main.css": "./backstage-resource/static/css/main.6dea0f05.chunk.css",
+    "main.js": "./backstage-resource/static/js/main.25c459df.chunk.js",
+    "main.js.map": "./backstage-resource/static/js/main.25c459df.chunk.js.map",
+    "runtime-main.js": "./backstage-resource/static/js/runtime-main.5d541422.js",
+    "runtime-main.js.map": "./backstage-resource/static/js/runtime-main.5d541422.js.map",
+    "static/js/2.62f68f87.chunk.js": "./backstage-resource/static/js/2.62f68f87.chunk.js",
+    "static/js/2.62f68f87.chunk.js.map": "./backstage-resource/static/js/2.62f68f87.chunk.js.map",
+    "static/js/3.877f26ec.chunk.js": "./backstage-resource/static/js/3.877f26ec.chunk.js",
+    "static/js/3.877f26ec.chunk.js.map": "./backstage-resource/static/js/3.877f26ec.chunk.js.map",
+    "index.html": "./backstage-resource/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "./backstage-resource/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.62f68f87.chunk.js.LICENSE.txt": "./backstage-resource/static/js/2.62f68f87.chunk.js.LICENSE.txt",
+    "static/media/TW-Kai-98_1.5349868d.ttf": "./backstage-resource/static/media/TW-Kai-98_1.5349868d.ttf",
+    "static/media/msyh.2ec463e8.ttf": "./backstage-resource/static/media/msyh.2ec463e8.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.1bd1614f.js",
-    "static/js/2.8dfdc018.chunk.js",
+    "static/js/runtime-main.5d541422.js",
+    "static/js/2.62f68f87.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.e9aa6171.chunk.js"
+    "static/js/main.25c459df.chunk.js"
   ]
 }

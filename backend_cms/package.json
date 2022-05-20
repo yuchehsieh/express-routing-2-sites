@@ -1,4 +1,5 @@
 {
+  "homepage": "./backstage-resource",
   "name": "backend_cms",
   "version": "0.1.0",
   "private": true,
